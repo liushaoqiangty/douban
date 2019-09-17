@@ -1,0 +1,79 @@
+.box{
+  /* width: 100%; */
+  padding: 20rpx 30rpx;
+
+}
+.item-group{
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+}
+.item-group .thumbnail{
+  width: 40rpx;
+  height: 50rpx;
+}
+.item-group .item-title{
+    margin-left: 10rpx;
+  margin-right: 10rpx;
+  font-size: 32rpx;
+  color: #41be57;
+}
+.item-group .item-rate{
+  font-size: 28rpx;
+  color: #ccc;
+}
+.comment-title{
+  margin-top: 60rpx;
+  font-size: 40rpx;
+}
+
+.comment-group{
+display: flex;
+justify-content: flex-start;
+padding-top: 40rpx;
+}
+.comment-group .left-comment{
+width: 70rpx; 
+}
+.left-comment .avatar{
+  width: 70rpx;
+  height: 70rpx;
+  border-radius: 50%;
+}
+.comment-group .right-comment{
+  flex: 1;
+}
+.right-comment .username-rate{
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+
+}
+.username-rate .username{
+  font-size: 36rpx;
+margin-left: 20rpx;
+}
+.release-time{
+  color: #b3b3b3;
+  font-size: 32rpx;
+  margin-top: 10rpx;
+}
+.content{
+  font-size: 32rpx;
+  color: #353535;
+  margin-top: 10rpx;
+}
+.page-btn-group{
+  margin-top: 40rpx;
+  margin-bottom: 40rpx;
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+}
+.page-btn{
+  flex: 1;
+  height: 60rpx;
+  color: #898989;
+  border-color: #898989;
+  line-height: 60rpx;
+}
